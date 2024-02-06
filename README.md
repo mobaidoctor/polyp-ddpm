@@ -1,7 +1,7 @@
 <!-- #region -->
 # Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation
 
-![Polyp-DDPM comparison](attachment:figure.PNG)
+![Polyp-DDPM comparison](./figure.png "Comparison of synthetic images")
 
 ## Overview
 
