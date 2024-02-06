@@ -11,8 +11,6 @@ Welcome to the official PyTorch implementation of "Polyp-DDPM: Diffusion-Based S
 
 ### Prerequisites
 
-Ensure you have the following software installed:
-
 - Python 3.8.10
 - PyTorch 1.13.1+cu116
 - NumPy 1.21.0
