@@ -13,13 +13,13 @@ os.environ["CUDA_VISIBLE_DEVICES"]="0"
 # -
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-i', '--inputfolder', type=str, default="dataset/train/masks")
-parser.add_argument('-l', '--targetfolder', type=str, default="dataset/train/images")
+parser.add_argument('-i', '--inputfolder', type=str, default="dataset/test/masks")
+parser.add_argument('-l', '--targetfolder', type=str, default="dataset/test/images")
 parser.add_argument('--input_size', type=int, default=256)
 parser.add_argument('--num_channels', type=int, default=64)
 parser.add_argument('--num_res_blocks', type=int, default=2)
 parser.add_argument('--batchsize', type=int, default=32)
-parser.add_argument('--epochs', type=int, default=100000)
+parser.add_argument('--epochs', type=int, default=10)
 parser.add_argument('--timesteps', type=int, default=250)
 parser.add_argument('-r', '--resume_weight', type=str, default="")
 args = parser.parse_args()

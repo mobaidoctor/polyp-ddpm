@@ -1,11 +1,12 @@
 <!-- #region -->
 # Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation
 
-![Polyp-DDPM comparison](attachment:figure.PNG)
+![Polyp-DDPM comparison](./figure.png "Comparison of synthetic images")
+
 
 ## Overview
 
-Welcome to the official PyTorch implementation of "Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation". Polyp-DDPM is a novel diffusion-based method designed to generate gastrointestinal (GI) tract polyp images from segmentation masks. This method aims to improve polyp segmentation by tackling the significant challenges of data limitations, high annotation costs, and privacy concerns prevalent in medical imaging. Leveraging advanced diffusion models conditioned on segmentation masks, Polyp-DDPM surpasses existing methods in image quality and segmentation performance.
+Welcome to the official PyTorch implementation of our recent study, ["Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation"](https://arxiv.org/abs/2402.04031). Building on our previous research, ["Med-DDPM: Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis"](https://arxiv.org/abs/2305.18453), we extend our methodology to the semantic synthesis of 2D colored medical images. We introduce Polyp-DDPM, a novel diffusion-based method specifically designed to generate images of gastrointestinal (GI) tract polyps from segmentation masks. This method seeks to enhance polyp segmentation by addressing the significant challenges of data scarcity, high annotation costs, and privacy issues commonly encountered in medical imaging.
 
 ## Getting Started
 
@@ -63,6 +64,15 @@ python3 inference.py -i dataset/custom_test/masks -e custom_exports -w models/cu
 
 If you find our work useful for your research, please consider citing our papers:
 
+@misc{dorjsembe2024polypddpm,\
+      title={Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation},\
+      author={Zolnamar Dorjsembe and Hsing-Kuo Pao and Furen Xiao},\
+      year={2024},\
+      eprint={2402.04031},\
+      archivePrefix={arXiv},\
+      primaryClass={cs.CV}\
+}
+
 @misc{dorjsembe2024conditional,\
       title={Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis}, \
       author={Zolnamar Dorjsembe and Hsing-Kuo Pao and Sodtavilan Odonchimed and Furen Xiao},\
@@ -73,11 +83,11 @@ If you find our work useful for your research, please consider citing our papers
 }
 
 
-Our code is based on our previous work: Med-DDPM. For more details, see the paper [here](https://arxiv.org/abs/2305.18453) and the repository [here](https://github.com/mobaidoctor/med-ddpm).
+Our code is based on our previous work: Med-DDPM. For more details, see the paper https://arxiv.org/abs/2305.18453 and the repository https://github.com/mobaidoctor/med-ddpm.
 
 
-
-
+## Acknowledgement:
+Our initial source code is based on [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) and [guided-diffusion](https://github.com/openai/guided-diffusion).
 <!-- #endregion -->
 
 ```python

@@ -291,7 +291,7 @@ class Trainer(object):
 
         self.step_start_ema = step_start_ema
         self.save_and_sample_every = save_and_sample_every
-
+        self.train_lr = train_lr
         self.batch_size = train_batch_size
         self.image_size = diffusion_model.image_size
         self.gradient_accumulate_every = gradient_accumulate_every
@@ -388,17 +388,16 @@ class Trainer(object):
 
             self.step += 1
 
-        print('training completed')
+        print('Training completed')
         end_time = time.time()
         execution_time = (end_time - start_time)/3600
         self.writer.add_hparams(
             {
-                "lr": self.train_lr,
-                "batchsize": self.train_batch_size,
-                "image_size":self.image_size,
-                "depth_size":self.depth_size,
-                "execution_time (hour)":execution_time
+                "lr: ": self.train_lr,
+                "batchsize: ": self.batch_size,
+                "image_size: ":self.image_size,
+                "execution_time (hour): ":execution_time
             },
-            {"last_loss":average_loss}
+            {"last_loss: ": loss}
         )
         self.writer.close()
