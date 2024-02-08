@@ -2,7 +2,10 @@
 # Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation
 
 ![Polyp-DDPM comparison](./figure.png "Comparison of synthetic images")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2149af1ec840a77e0ba5c3e9dfe13f4f1cb0c4c2
 
 ## Overview
 
@@ -11,8 +14,6 @@ Welcome to the official PyTorch implementation of our recent study, ["Polyp-DDPM
 ## Getting Started
 
 ### Prerequisites
-
-Ensure you have the following software installed:
 
 - Python 3.8.10
 - PyTorch 1.13.1+cu116
