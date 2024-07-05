@@ -70,14 +70,16 @@ If you find our work useful for your research, please consider citing our papers
       primaryClass={cs.CV}\
 }
 
-@misc{dorjsembe2024conditional,\
-      title={Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis}, \
-      author={Zolnamar Dorjsembe and Hsing-Kuo Pao and Sodtavilan Odonchimed and Furen Xiao},\
-      year={2024},\
-      eprint={2305.18453},\
-      archivePrefix={arXiv},\
-      primaryClass={eess.IV}\
-}
+@ARTICLE{10493074,\
+  author={Dorjsembe, Zolnamar and Pao, Hsing-Kuo and Odonchimed, Sodtavilan and Xiao, Furen},\
+  journal={IEEE Journal of Biomedical and Health Informatics}, \
+  title={Conditional Diffusion Models for Semantic 3D Brain MRI Synthesis}, \
+  year={2024},\
+  volume={28},\
+  number={7},\
+  pages={4084-4093},\
+  doi={10.1109/JBHI.2024.3385504}\
+  }
 
 
 Our code is based on our previous work: Med-DDPM. For more details, see the paper https://arxiv.org/abs/2305.18453 and the repository https://github.com/mobaidoctor/med-ddpm.
