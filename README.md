@@ -35,6 +35,16 @@ Start training with default parameters by running: python3 train.py
 
 Or customize your training setup with your preferred parameters.
 
+
+## Model Weights
+
+Download our pretrained model weights using the link below:  
+[**Download Model Weights**](https://drive.google.com/drive/folders/1R-sRX64HPVXkGWOtXhMRb_CpENhqtwym?usp=sharing)
+
+Once downloaded, place the file in the `models` directory.
+
+
+
 ## Inference
 
 Customize your inference process with these command-line arguments:
