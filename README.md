@@ -71,14 +71,17 @@ python3 inference.py -i dataset/custom_test/masks -e custom_exports -w models/cu
 
 If you find our work useful for your research, please consider citing our papers:
 
-@misc{dorjsembe2024polypddpm,\
-      title={Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation},\
-      author={Zolnamar Dorjsembe and Hsing-Kuo Pao and Furen Xiao},\
-      year={2024},\
-      eprint={2402.04031},\
-      archivePrefix={arXiv},\
-      primaryClass={cs.CV}\
-}
+@INPROCEEDINGS{10782077,\
+  author={Dorjsembe, Zolnamar and Pao, Hsing-Kuo and Xiao, Furen},\
+  booktitle={2024 46th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},\
+  title={Polyp-DDPM: Diffusion-Based Semantic Polyp Synthesis for Enhanced Segmentation},\
+  year={2024},\
+  volume={},\
+  number={},\
+  pages={1-7},\
+  doi={10.1109/EMBC53108.2024.10782077}\
+  }
+
 
 @ARTICLE{10493074,\
   author={Dorjsembe, Zolnamar and Pao, Hsing-Kuo and Odonchimed, Sodtavilan and Xiao, Furen},\
